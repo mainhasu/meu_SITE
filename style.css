@@ -1,3 +1,7 @@
+body {
+  background-color: red;
+  font-family: 
+
 .card {
   display: flex;
   flex-direction: column;
