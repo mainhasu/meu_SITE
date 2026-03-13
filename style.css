@@ -1,13 +1,13 @@
 body {
   background-color: red;
   font-family: "Montserrat", sans-serif;
-  font-size: 40px;
 }
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font_size:38px;
 }
 .card img{
   height: 100vh;
