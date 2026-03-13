@@ -1,1 +1,9 @@
-.chave
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 500px;
+  width: 500px;
+]
