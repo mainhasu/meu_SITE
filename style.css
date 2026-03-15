@@ -10,7 +10,7 @@ body {
   font-size:38px;
 }
 .card img{
-  height: 500px;
-  width: 500px;
+  height: 100vh;
+  width: 100vw;
 }
 
