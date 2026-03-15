@@ -10,7 +10,7 @@ body {
   font-size:38px;
 }
 .card img{
-  height: 50vh;
-  width: 50vw;
+  height: auto;
+  max-width: 100%vw;
 }
 
