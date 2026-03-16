@@ -13,7 +13,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: auto;
   max-width: 600px;
 }
 .card img{
@@ -21,6 +20,6 @@ body {
   width: 500px;
 }
 .card h2 {
-  font-size: 18;
+  font-size: 18px;
 }
 
