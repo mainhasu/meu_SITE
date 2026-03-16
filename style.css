@@ -2,6 +2,11 @@ body {
   background-color: #c1121f;
   font-family: "Montserrat", sans-serif;
 }
+.container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
 .card {
   display: flex;
   flex-direction: column;
