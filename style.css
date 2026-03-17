@@ -9,9 +9,6 @@ body {
   flex-wrap: wrap;
 }
 .cantor {
-  background-color: white;
-  padding: 10px;
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
