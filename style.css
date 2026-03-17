@@ -21,7 +21,7 @@ body {
 }
 .cantor img{
   max-width: 500px;
-  width: 450px;
+  width: 100%;
   height: 250px;
   object-fit: cover;
 }
@@ -31,11 +31,11 @@ body {
 }
 .img-sombr {
   border: 3px solid black;
-   border-radius: 10px;
+  border-radius: 10px;
 }
 .img-laufey {
   border: 3px solid #c78f68;
-   border-radius: 10px;
+  border-radius: 10px;
 }
 .cantor h2 {
   font-size: 18px;
