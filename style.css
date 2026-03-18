@@ -1,6 +1,7 @@
 body {
   background-color: #041029;
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 .container {
   display: flex;
@@ -21,7 +22,7 @@ body {
 }
 .cantor:hover {
   background-color: #2f4a80;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .cantor img{
   width: 100%;
