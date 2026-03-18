@@ -8,7 +8,8 @@ body {
   gap: 35px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 45px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .cantor {
   display: flex;
