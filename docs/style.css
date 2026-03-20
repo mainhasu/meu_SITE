@@ -1,12 +1,15 @@
-.botao-home {
+.home-button {
   transition: 0.3s;
   height: 40px;
   width: 40px;
+  padding: 10px;
+  border-radius: 10px
 }
-.botao-home:hover {
+.home-button:hover {
   background-color: #2f4a80;
   transform: scale(1.05);
 }
+
 body {
   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="32" width="32"><text y="50%" x="50%" dominant-baseline="middle" text-anchor="middle" font-size="24">🎤</text></svg>') 16 16, auto;
   background-color: #041029;
