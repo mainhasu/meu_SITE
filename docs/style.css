@@ -45,6 +45,7 @@ a {
   text-align: center;
   width: 375px;
   padding: 20px;
+  padding-bottom: 15px;
   border-radius: 10px;
   transition: 0.3s;
 }
