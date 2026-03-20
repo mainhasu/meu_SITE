@@ -1,6 +1,7 @@
 .botao-home {
   transition: 0.3s;
-  
+  height: 40px;
+  width: 40px;
 }
 .botao-home:hover {
   background-color: #2f4a80;
