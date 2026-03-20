@@ -6,10 +6,10 @@ body {
 }
 .container {
   display: flex;
-  gap: 35px;
+  gap: 40px;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: 30px;
 }
 .cantor {
   display: flex;
@@ -17,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 400px;
+  width: 300px;
   padding: 20px;
   border-radius: 10px;
   transition: 0.3s;
