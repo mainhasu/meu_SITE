@@ -30,6 +30,7 @@ body {
   color: #96b2f1;
   font-family: "Fredoka", sans-serif;
   font-size: 25px;
+  spellcheck: false;
 }
 .cantor img{
   width: 100%;
