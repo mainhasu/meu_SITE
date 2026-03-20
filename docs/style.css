@@ -35,7 +35,7 @@ a {
   gap: 40px;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: 15px;
 }
 .cantor {
   display: flex;
@@ -45,7 +45,7 @@ a {
   text-align: center;
   width: 375px;
   padding: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   border-radius: 10px;
   transition: 0.3s;
 }
