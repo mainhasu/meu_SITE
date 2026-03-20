@@ -32,7 +32,7 @@ a {
 }
 .container {
   display: flex;
-  gap: 40px;
+  gap: 50px;
   justify-content: center;
   flex-wrap: wrap;
   margin: 15px;
@@ -43,9 +43,9 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 375px;
-  padding: 20px;
-  padding-bottom: 5px;
+  width: 400px;
+  padding: 50px;
+  padding-bottom: 1px;
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -57,7 +57,6 @@ a {
   color: #96b2f1;
   font-family: "Fredoka", sans-serif;
   font-size: 25px;
-  spellcheck: false;
 }
 .cantor img{
   width: 100%;
