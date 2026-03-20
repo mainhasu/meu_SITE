@@ -1,5 +1,5 @@
 .home-button {
-  display: flex;
+  display: inline-block;
   transition: 0.3s;
   padding: 10px;
   border-radius: 10px;
@@ -17,6 +17,7 @@
 }
 .casa {
   border: 3px solid white;
+  display: block;
   border-radius: 10px;
 }
 body {
