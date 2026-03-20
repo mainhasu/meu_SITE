@@ -1,8 +1,11 @@
 .home-button {
+  display: flex;
   transition: 0.3s;
   width: 50px;
-  padding: 20px;
-  border-radius: 10px
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .home-button img {
   width: 100%;
@@ -11,7 +14,7 @@
 }
 .home-button:hover {
   background-color: #2f4a80;
-  transform: scale(1.05);
+  transform: scale(1.04);
 }
 .casa {
   border: 3px solid white;
@@ -36,7 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 350px;
+  width: 375px;
   padding: 20px;
   border-radius: 10px;
   transition: 0.3s;
