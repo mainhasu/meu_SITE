@@ -44,7 +44,8 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 375px;
+  max-width: 375px;
+  width: 25vw
   padding: 25px;
   padding-bottom: 1px;
   border-radius: 10px;
