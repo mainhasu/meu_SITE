@@ -35,6 +35,10 @@
   margin-top: 20px;
   margin-right: 42px;
 }
+.cor:hover {
+  background-color: #2f4a80;
+  transform: scale(1.04);
+}
 .cor img {
   width: 60px;
   height: 60px;
