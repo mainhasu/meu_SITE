@@ -131,6 +131,8 @@ a {
   border-radius: 10px;
   width: 100px;
   margin: 40px;
+  justify-content: center;
+  align-items: center;
   margin-top: 45px;
   margin-left: 45px;
   transition: 0.3s;
@@ -143,7 +145,6 @@ a {
 .kkk {
   border-radius: 10px;
   border: 3px solid #39ff14;
-  width: 100%;
+  width: 70px;
   height:70px;
 }
-  
