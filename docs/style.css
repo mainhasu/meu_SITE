@@ -11,6 +11,7 @@
   padding: 15px;
   border-radius: 10px;
   margin-left: 37px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5)
 }
 .home-button img {
   width: 60px;
@@ -32,6 +33,7 @@
   padding: 8px;
   border-radius: 10px;
   margin-right: 40px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5)
 }
 .cor:hover {
   background-color: #2f4a80;
