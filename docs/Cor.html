@@ -16,7 +16,6 @@ body {
   color: white;
 }
 
-/* CARD PRINCIPAL */
 .container {
   background: rgba(255,255,255,0.05);
   backdrop-filter: blur(20px);
@@ -27,14 +26,12 @@ body {
   text-align: center;
 }
 
-/* TÍTULO */
 h1 {
   margin-bottom: 20px;
   font-size: 22px;
   opacity: 0.9;
 }
 
-/* ÁREA DE CORES */
 .palette {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -42,7 +39,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* BOLINHAS DE COR */
 .color {
   width: 35px;
   height: 35px;
@@ -57,7 +53,6 @@ h1 {
   box-shadow: 0 0 15px white;
 }
 
-/* PICKER BONITO */
 .picker {
   width: 100%;
   height: 50px;
@@ -67,7 +62,6 @@ h1 {
   margin-bottom: 15px;
 }
 
-/* PREVIEW */
 .preview {
   width: 100%;
   height: 70px;
@@ -77,14 +71,12 @@ h1 {
   transition: 0.3s;
 }
 
-/* HEX */
 .hex {
   margin-top: 15px;
   font-size: 20px;
   letter-spacing: 2px;
 }
 
-/* BOTÃO */
 button {
   margin-top: 12px;
   padding: 10px 20px;
@@ -105,29 +97,32 @@ button:hover {
 </head>
 
 <body>
-
+<div class="top-bar">
+    <div class="home-button">
+        <a href="index.html">
+            <img src="Imagens/casa.png" alt="Home" class="casa">
+        </a>
+    </div>
+    <div class="cor">
+        <a href="Cor.html">
+            <img src="Imagens/roda.jpg" alt="Selecionar cor." class="cores">
+        </a>
+    </div>
+</div>
 <div class="container">
   <h1>🎨 Color Studio</h1>
-
-  <!-- PALETA BONITA -->
   <div class="palette" id="palette"></div>
-
-  <!-- PICKER MODERNO -->
   <input type="color" class="picker" id="picker">
-
   <div class="preview" id="preview"></div>
   <div class="hex" id="hex">#ffffff</div>
-
   <button onclick="copiar()">Copiar HEX</button>
 </div>
-
 <script>
 const palette = document.getElementById("palette");
 const preview = document.getElementById("preview");
 const hex = document.getElementById("hex");
 const picker = document.getElementById("picker");
 
-// CORES BONITAS (CURADAS)
 const colors = [
   "#ff0000","#ff7f00","#ffff00","#00ff00","#00ffff","#0000ff",
   "#8b00ff","#ff1493","#ff4500","#ffd700","#00fa9a","#1e90ff",
@@ -135,7 +130,6 @@ const colors = [
   "#ffffff","#cccccc","#888888","#444444","#222222","#000000"
 ];
 
-// CRIAR BOLINHAS
 colors.forEach(c => {
   const div = document.createElement("div");
   div.className = "color";
@@ -146,26 +140,21 @@ colors.forEach(c => {
   palette.appendChild(div);
 });
 
-// SETAR COR
 function setColor(c) {
   preview.style.background = c;
   hex.textContent = c;
   picker.value = c;
 }
 
-// PICKER
 picker.addEventListener("input", () => {
   setColor(picker.value);
 });
 
-// COPIAR
 function copiar() {
   navigator.clipboard.writeText(hex.textContent);
 }
 
-// INIT
 setColor("#ffffff");
 </script>
-
 </body>
 </html>
