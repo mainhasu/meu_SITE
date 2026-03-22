@@ -146,6 +146,7 @@ input {
   margin-left: 45px;
   transition: 0.3s;
   padding: 10px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5)
 }
 .temp:hover {
   background-color: #2f4a80;
