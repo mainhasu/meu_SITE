@@ -9,7 +9,7 @@
   transition: 0.3s;
   padding: 15px;
   border-radius: 10px;
-  margin-left: 42px;
+  margin-left: 40px;
 }
 .home-button img {
   width: 60px;
@@ -30,7 +30,7 @@
   transition: 0.3s;
   padding: 8px;
   border-radius: 10px;
-  margin-right: 42px;
+  margin-right: 40px;
 }
 .cor:hover {
   background-color: #2f4a80;
