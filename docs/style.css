@@ -150,3 +150,10 @@ a {
   width: 70px;
   height:70px;
 }
+.espaço {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  
