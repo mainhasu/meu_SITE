@@ -133,6 +133,7 @@ a {
 }
 input {
   border-radius: 10px;
+  border: 1px solid black;
 }
 .temp {
   display: inline-block;
