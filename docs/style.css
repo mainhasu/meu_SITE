@@ -41,6 +41,9 @@
   object-fit:cover;
   border-radius: 40px;
 }
+.cores {
+   border: 3px solid black;
+}
 body {
   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="32" width="32"><text y="50%" x="50%" dominant-baseline="middle" text-anchor="middle" font-size="24">🎤</text></svg>') 16 16, auto;
   background-color: #041029;
