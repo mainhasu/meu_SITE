@@ -75,6 +75,7 @@ a {
   padding-bottom: 1px;
   border-radius: 10px;
   transition: 0.3s;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 .cantor:hover {
   background-color: #2f4a80;
