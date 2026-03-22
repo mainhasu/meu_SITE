@@ -131,6 +131,9 @@ a {
 .img-billie {
   border: 3px solid #39ff14;
 }
+input {
+  border-radius: 10px;
+}
 .temp {
   display: inline-block;
   border-radius: 10px;
