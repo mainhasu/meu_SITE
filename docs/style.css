@@ -2,15 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
-  width: 100%;  
+  width: 100%;
+  padding: 10px 20px;
 }
 .home-button {
   display: inline-block;
   transition: 0.3s;
   padding: 15px;
   border-radius: 10px;
-  margin-left: 37px;
+  padding: 10px 20px;
   box-shadow: 0 0 50px rgba(0,0,0,0.5)
 }
 .home-button img {
@@ -32,7 +32,7 @@
   transition: 0.3s;
   padding: 8px;
   border-radius: 10px;
-  margin-right: 40px;
+  padding: 10px 20px;
   box-shadow: 0 0 50px rgba(0,0,0,0.5)
 }
 .cor:hover {
@@ -164,10 +164,18 @@ input {
   text-align:center;
   justify-content: center;
   width: 400px;
+  height: 450px;
   align-items: center;
+  padding: 30px;
   border-radius: 10px;
   border: 3px solid black;
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
 }
 button {
   color: #96b2f1;
