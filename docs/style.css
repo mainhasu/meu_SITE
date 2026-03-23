@@ -207,7 +207,9 @@ button {
   font-size: 18px;
   border: 2px solid black;
   border-radius: 10px;
-  padding: 5px;
+  width: fit-content;
+  align-self: center;
+  padding: 5px 15px;
 }
 button:hover {
   background-color: #2f4a80;
