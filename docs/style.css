@@ -190,7 +190,7 @@ input {
   border-radius: 10px;
 }
 input:hover {
-  background-color: #2f4a80;
+  background-color: white;
   transform: scale(1.05);
 }
 button {
