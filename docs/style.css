@@ -177,6 +177,18 @@ form {
   width: 100%;
   gap: 10px;
 }
+input {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 15px;
+  font-size: 18px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+input:hover {
+  background-color: #2f4a80;
+  transform: scale(1.05);
+}
 button {
   color: #96b2f1;
   background-color: white;
