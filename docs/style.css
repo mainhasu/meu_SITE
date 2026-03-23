@@ -6,7 +6,7 @@
 }
 .home-button {
   display: inline-block;
-  transition: 0.3s;
+  transition: 0.3s ease;
   padding: 15px;
   border-radius: 10px;
   margin-top: 10px;
@@ -29,7 +29,7 @@
 }
 .cor {
   display: inline-block;
-  transition: 0.3s;
+  transition: 0.3s ease;
   padding: 8px;
   border-radius: 10px;
   margin-top: 10px;
@@ -78,7 +78,7 @@ a {
   padding: 25px;
   padding-bottom: 1px;
   border-radius: 10px;
-  transition: 0.3s;
+  transition: 0.3s ease;
   box-shadow: 0 0 50px rgba(0,0,0,0.5);
 }
 .cantor:hover {
@@ -145,7 +145,7 @@ input {
   align-items: center;
   margin-top: 45px;
   margin-left: 45px;
-  transition: 0.3s;
+  transition: 0.3s ease;
   padding: 10px;
   box-shadow: 0 0 50px rgba(0,0,0,0.5)
 }
@@ -172,6 +172,7 @@ input {
   border: 3px solid black;
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
   margin: 80px auto;
+  transition: 0.3s ease;
 }
 .espaco h1 {
   color: #96b2f1;
@@ -192,7 +193,7 @@ input {
   border: 1px solid black;
   padding: 8px;
   font-size: 18px;
-  transition: 0.3s;
+  transition: 0.3s ease;
   border-radius: 10px;
 }
 input:hover {
@@ -202,7 +203,7 @@ input:hover {
 button {
   color: #96b2f1;
   background-color: white;
-  transition: 0.3s;
+  transition: 0.3s ease;
   font-family: "Fredoka", sans-serif;
   font-size: 16px;
   border: 2px solid black;
@@ -215,6 +216,3 @@ button:hover {
   background-color: #2f4a80;
   transform: scale(1.05);
 }
-
-
-  
