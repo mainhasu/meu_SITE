@@ -173,6 +173,10 @@ input {
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
   margin: 80px auto;
 }
+.espaco h1 {
+  color: #96b2f1;
+  font-family: "Fredoka", sans-serif;
+}
 .espaco h2 {
   color: #96b2f1;
   font-family: "Fredoka", sans-serif;
