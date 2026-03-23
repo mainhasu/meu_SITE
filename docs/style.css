@@ -204,12 +204,12 @@ button {
   background-color: white;
   transition: 0.3s;
   font-family: "Fredoka", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   border: 2px solid black;
   border-radius: 10px;
   width: fit-content;
   align-self: center;
-  padding: 5px 15px;
+  padding: 3px 10px;
 }
 button:hover {
   background-color: #2f4a80;
