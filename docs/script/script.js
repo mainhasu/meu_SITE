@@ -1,7 +1,7 @@
 const corOriginal=document.body.style.backgroundColor;
 
 function alterarFundo(){
-  document.body.style.backgroundColor= "pink";
+  document.body.style.backgroundColor= "white";
 }
 
 function voltarFundo(){
