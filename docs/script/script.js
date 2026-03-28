@@ -1,9 +1,12 @@
 const corOriginal=getComputedStyle(document.body).backgroundColor;
 
 function alterarFundo(){
-  document.body.style.backgroundColor= "white";
-}
+  let cor = prompt("Digite uma cor (de preferência em binário):");
 
+  if (cor) {
+  document.body.style.backgroundColor= cor;
+  }
+}
 function voltarFundo(){
   document.body.style.backgroundColor= corOriginal;
 }
