@@ -1,4 +1,4 @@
-const corOriginal=document.body.style.backgroundColor;
+const corOriginal=getComputedStyle(document.body).backgroundColor;
 
 function alterarFundo(){
   document.body.style.backgroundColor= "white";
