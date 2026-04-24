@@ -22,7 +22,7 @@ formulario.addEventListener(‘submit’, function(event){
     nome: novoNome,
     senha: novaSenha,
   };
-  lista.push(novo);
+  list.push(novo);
   console.log(lista);
 };);
     
