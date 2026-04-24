@@ -12,8 +12,8 @@ function voltarFundo(){
 }
 
 const list = []
-const formulario = document.getElementById(‘form’);
-formulario.addEventListener(‘submit’, function(event){
+const formulario = document.getElementById('form');
+formulario.addEventListener('submit', function(event){
   event.preventDefault();
   const novoNome = document.getElementById('nome').value
   const novaSenha = document.getElementById('senha').value
@@ -24,5 +24,5 @@ formulario.addEventListener(‘submit’, function(event){
   };
   list.push(novo);
   console.log(lista);
-};);
+});
     
