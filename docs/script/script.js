@@ -10,3 +10,16 @@ function alterarFundo(){
 function voltarFundo(){
   document.body.style.backgroundColor= corOriginal;
 }
+
+const formulario = document.getElementById(‘form’);
+formulario.addEventListener(‘submit’, function(event){
+  event.preventDefault();
+  const novoNome = document.getElementById('nome').value
+  const novaSenha = document.getElementById('senha').value
+
+  const novo = {
+    nome: novoNome,
+    senha: novaSenha,
+  };
+};);
+    
