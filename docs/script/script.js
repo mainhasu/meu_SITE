@@ -26,6 +26,6 @@ formulario.addEventListener('submit', function(event){
   console.log(list);
 
   document.getElementById('nome').value = "";
-  document.getElementById('nome').value = "";
+  document.getElementById('senha').value = "";
 });
     
