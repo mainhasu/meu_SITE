@@ -11,6 +11,7 @@ function voltarFundo(){
   document.body.style.backgroundColor= corOriginal;
 }
 
+const list = []
 const formulario = document.getElementById(‘form’);
 formulario.addEventListener(‘submit’, function(event){
   event.preventDefault();
@@ -21,5 +22,7 @@ formulario.addEventListener(‘submit’, function(event){
     nome: novoNome,
     senha: novaSenha,
   };
+  lista.push(novo);
+  console.log(lista);
 };);
     
