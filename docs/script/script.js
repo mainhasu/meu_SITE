@@ -23,6 +23,6 @@ formulario.addEventListener('submit', function(event){
     senha: novaSenha,
   };
   list.push(novo);
-  console.log(lista);
+  console.log(list);
 });
     
