@@ -24,5 +24,8 @@ formulario.addEventListener('submit', function(event){
   };
   list.push(novo);
   console.log(list);
+
+  document.getElementById('nome').value = "";
+  document.getElementById('nome').value = "";
 });
     
